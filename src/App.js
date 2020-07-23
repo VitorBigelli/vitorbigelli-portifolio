@@ -1,9 +1,16 @@
 import React from 'react';
 import './App.css';
 
+import HomeSection from './components/HomeSection'
+import SkillSection from './components/SkillSection'
+import ContactSection from './components/ContactSection'
+
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
+      <HomeSection />
+      <SkillSection />
+      <ContactSection />
     </div>
   );
 }
