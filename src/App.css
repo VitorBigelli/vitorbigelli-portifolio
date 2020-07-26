@@ -3,7 +3,24 @@
   overflow-x: hidden;
 }
 
-.section {
+nav {
+  background-color: var(--light-blue);
+  padding: 20px;
+  text-align: right;
+}
+
+nav a {
+  margin: 0 20px;
+  color: var(--cream);
+}
+
+nav a:hover { 
+  color: var(--dark-blue);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
   height: 70vh;
   width: 100vw;
   display: flex;
@@ -11,7 +28,7 @@
   background-color: #F7FFF7;
 }
 
-.section h1 {
+section h1 {
   color: #2F3061;
 }
 

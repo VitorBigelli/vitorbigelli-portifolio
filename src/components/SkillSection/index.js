@@ -17,7 +17,7 @@ const skills = [
 
 const SkillSection = () => {
     return (
-      <div className='section green-bg'>
+      <section className='section green-bg'>
         <Container> 
           <Row>
             <Col>
@@ -80,7 +80,7 @@ const SkillSection = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </section>
     )
 }
 
